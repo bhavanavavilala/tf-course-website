@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket  = "roidtc-240408-user508-tf-state"
-    prefix  = "terraform/state"
+    bucket = "roidtc-240408-user508-tf-state"
+    prefix = "terraform/state"
   }
 }
 
